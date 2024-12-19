@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Kloputzen",
+        "date": "2023-10-31",
+        "time": "20:00",
+        "person": "Lydia",
+        "comment": "die große Bürste benutzen",
+        "inProgress": false
+    },
+    {
+        "title": "Einkaufen",
+        "date": "2023-11-02",
+        "time": "15:00",
+        "person": "Markus",
+        "comment": "Milch und Brot kaufen",
+        "inProgress": true
+    }
+]
+
+
