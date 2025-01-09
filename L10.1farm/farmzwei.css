@@ -1,0 +1,83 @@
+/* Allgemeiner Seitenstil */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #87CEEB, #f0f8ff);
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Titelstil */
+h1 {
+    color: #4CAF50;
+    font-size: 3em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Container für die Farm-Ausgabe */
+#farm-output {
+    margin-top: 20px;
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 20px;
+    border: 2px solid #4CAF50;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Stil für Überschriften der Tiere */
+#farm-output h2 {
+    color: #FF5722;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #FF5722;
+    padding-bottom: 5px;
+}
+
+/* Stil für Song-Text */
+#farm-output p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #333333;
+    margin: 10px 0;
+}
+
+/* Warnung für niedrige Futtervorräte */
+#farm-output p strong {
+    color: #FF0000;
+    font-weight: bold;
+}
+
+/* Stil für Buttons */
+button {
+    margin-top: 20px;
+    padding: 15px 30px;
+    background: #FF5722;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+/* Hover-Effekt für Buttons */
+button:hover {
+    background: #E64A19;
+    transform: scale(1.05);
+}
+
+/* Aktions-Text für Spezialaktionen */
+.special-action {
+    background: #FFF8E1;
+    color: #6A1B9A;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    border: 1px solid #6A1B9A;
+}
